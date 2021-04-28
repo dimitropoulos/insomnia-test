@@ -1,0 +1,8 @@
+_id: spc_b7ce178aa02b4bc1b9de33caecb7defc
+type: ApiSpec
+parentId: wrk_6556925af8e44c62ba40fab818c98492
+modified: 1619619497630
+created: 1619619475175
+fileName: my-spec.yaml
+contents: "# change"
+contentType: yaml

@@ -11,7 +11,7 @@ body:
           required: true
   - type: markdown
     attributes:
-      value: 'Tip: You can attach images or log files to textareas by clicking to highlight and then dragging files in.'
+      value: '> **Tip**: You can attach images or log files to textareas by clicking to highlight and then dragging files in.'
   - type: textarea
     attributes:
       label: Expected Behavior

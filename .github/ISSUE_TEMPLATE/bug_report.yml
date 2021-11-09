@@ -8,13 +8,13 @@ body:
       options:
         - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for a bug that matches the one I want to file, without success.
           required: true
-  - type: markdown
-    attributes:
-      value: '> **Tip**: You can attach images or log files to textareas by clicking to highlight and then dragging files in.'
   - type: textarea
     attributes:
       label: Expected Behavior
-      description: A clear and concise description of what you expected to happen.
+      description: |
+        A clear and concise description of what you expected to happen.
+
+        > **Tip**: You can attach images or log files to textareas by clicking to highlight and then dragging files in.
     validations:
       required: true
   - type: textarea

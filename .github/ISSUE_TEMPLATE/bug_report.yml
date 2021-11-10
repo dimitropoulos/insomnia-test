@@ -4,7 +4,8 @@ labels: [B-bug, S-unverified]
 body:
 - type: checkboxes
   attributes:
-    label: ''
+    label: asdf
+    description: asdfasdf
     options:
       - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
         required: true

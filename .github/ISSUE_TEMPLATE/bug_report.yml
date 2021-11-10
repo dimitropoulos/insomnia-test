@@ -6,7 +6,7 @@ labels:
 body:
   - type: checkboxes
     attributes:
-      description: You may select more than one.
+      label: You may select more than one.
       options:
         - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
           required: true

@@ -4,11 +4,11 @@ labels:
   - B-bug
   - S-unverified
 body:
-  # - type: checkboxes
-  #   attributes:
-  #     options:
-  #       - description: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
-  #         required: true
+  - type: checkboxes
+    attributes:
+      options:
+        - description: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
+          required: true
   - type: textarea
     attributes:
       label: Expected Behavior

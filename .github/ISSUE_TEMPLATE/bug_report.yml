@@ -4,11 +4,15 @@ labels:
   - B-bug
   - S-unverified
 body:
-  # - type: checkboxes
-  #   attributes:
-  #     options:
-  #       - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
-  #         required: true
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Which operating systems have you used?
+      description: You may select more than one.
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
   - type: textarea
     attributes:
       label: Expected Behavior

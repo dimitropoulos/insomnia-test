@@ -3,7 +3,7 @@ description: Report an Insomnia bug
 labels: [B-bug, S-unverified]
 body:
 - type: checkboxes
-  label: ''
+  label: I checked
   attributes:
     options:
       - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.

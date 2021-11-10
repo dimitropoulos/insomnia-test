@@ -4,17 +4,17 @@ labels:
   - B-bug
   - S-unverified
 body:
-  - type: checkboxes
-    attributes:
-      options:
-        - label: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
-          required: true
-  # - type: textarea
+  # - type: checkboxes
   #   attributes:
-  #     label: Expected Behavior
-  #     description: A clear and concise description of what you expected to happen.
-  #   validations:
-  #     required: true
+  #     options:
+  #       - description: I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.
+  #         required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
   # - type: markdown
   #   attributes:
   #     value: '> **Tip**: You can attach images or log files to textareas by clicking to highlight and then dragging files in.'

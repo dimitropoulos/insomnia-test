@@ -1,0 +1,24 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e6ecf1fc2
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548213292
+created: 1645548213292
+url: "{{ base_url }}/bearer"
+name: /bearer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{bearerToken}}"
+  prefix: ""
+metaSortKey: -1645548213292
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

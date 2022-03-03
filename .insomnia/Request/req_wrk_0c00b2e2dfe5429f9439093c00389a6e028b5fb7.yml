@@ -1,0 +1,29 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e028b5fb7
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548240419
+created: 1645548213285
+url: "{{ base_url }}/oauth2/authorization-code"
+name: /oauth2/authorization-code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  clientId: "{{ oauth2ClientId }}"
+  grantType: authorization_code
+  scope: read:something write:something
+  type: oauth2
+  clientSecret: "{{ oauth2ClientSecret }}"
+  redirectUrl: "{{ oauth2RedirectUrl }}"
+  accessTokenUrl: https://api.server.test/v1/token
+  authorizationUrl: https://api.server.test/v1/auth
+metaSortKey: -1645548213285
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

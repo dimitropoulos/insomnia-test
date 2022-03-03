@@ -1,0 +1,38 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6ee5d224de
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1646314080554
+created: 1645548213284
+url: "{{ base_url }}/oauth2/implicit"
+name: /oauth2/implicit
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    asdfasdfasdf
+    asfd
+    asdf
+    asdf
+    as
+    asdf
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f45d0bbc8b4c49b68302846dd4609b21
+authentication:
+  clientId: "{{ oauth2ClientId }}"
+  grantType: implicit
+  scope: read:something write:something
+  type: oauth2
+  redirectUrl: "{{ oauth2RedirectUrl }}"
+  authorizationUrl: https://api.server.test/v1/auth
+metaSortKey: -1645548213284
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

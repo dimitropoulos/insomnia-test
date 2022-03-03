@@ -1,0 +1,27 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e0a8d5285
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548213287
+created: 1645548213287
+url: "{{ base_url }}/key/query"
+name: /key/query
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    disabled: false
+    value: "{{ key }}"
+  - name: another_key
+    disabled: false
+    value: "{{ anotherKey }}"
+headers: []
+authentication: {}
+metaSortKey: -1645548213287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

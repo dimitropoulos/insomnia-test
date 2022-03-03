@@ -1,0 +1,36 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6ee285189c
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548221379
+created: 1645548213279
+url: "{{ base_url }}/all"
+name: /all
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    disabled: false
+    value: "{{ key }}"
+    id: pair_56a3a439fae94116a3069cf197b13571
+headers:
+  - name: x-api_key
+    disabled: false
+    value: "{{ xApiKey }}"
+    id: pair_8907f8f29f55432c8dcb8ffb6d5abb16
+  - name: Cookie
+    disabled: false
+    value: CookieName={{ cookieName }}
+    id: pair_df2ecb7d04e049b5b20bf0424f47ea97
+authentication:
+  type: basic
+  username: "{{ httpUsername }}"
+  password: "{{ httpPassword }}"
+metaSortKey: -1645548213279
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

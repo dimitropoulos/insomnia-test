@@ -1,0 +1,29 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e06ba5946
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548213281
+created: 1645548213281
+url: "{{ base_url }}/oauth2/password"
+name: /oauth2/password
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  clientId: "{{ oauth2ClientId }}"
+  grantType: password
+  scope: read:something write:something
+  type: oauth2
+  clientSecret: "{{ oauth2ClientSecret }}"
+  username: "{{ oauth2Username }}"
+  password: "{{ oauth2Password }}"
+  accessTokenUrl: https://api.server.test/v1/token
+metaSortKey: -1645548213281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

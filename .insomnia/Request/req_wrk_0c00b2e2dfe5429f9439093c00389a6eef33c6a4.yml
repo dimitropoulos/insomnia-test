@@ -1,0 +1,27 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6eef33c6a4
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1646153580134
+created: 1645548213282
+url: "{{ base_url }}/oauth2/client-credentials"
+name: /oauth2/client-credentials
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  clientId: "{{ oauth2ClientId }}"
+  grantType: client_credentials
+  scope: read:something write:something
+  type: oauth2
+  clientSecret: "{{ oauth2ClientSecret }}"
+  accessTokenUrl: https://api.server.test/v1/token
+metaSortKey: -1645548213282
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

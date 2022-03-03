@@ -1,0 +1,27 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e48bba8a5
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548213290
+created: 1645548213290
+url: "{{ base_url }}/key/header"
+name: /key/header
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-api_key
+    disabled: false
+    value: "{{ xApiKey }}"
+  - name: x-app-version
+    disabled: false
+    value: "{{ xAppVersion }}"
+authentication: {}
+metaSortKey: -1645548213290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

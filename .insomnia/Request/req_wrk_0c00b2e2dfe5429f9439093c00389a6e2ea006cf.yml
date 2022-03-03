@@ -1,0 +1,24 @@
+_id: req_wrk_0c00b2e2dfe5429f9439093c00389a6e2ea006cf
+type: Request
+parentId: wrk_0c00b2e2dfe5429f9439093c00389a6e
+modified: 1645548213289
+created: 1645548213289
+url: "{{ base_url }}/key/cookie"
+name: /key/cookie
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Cookie
+    disabled: false
+    value: CookieName={{ cookieName }}; AnotherCookieName={{ anotherCookieName }}
+authentication: {}
+metaSortKey: -1645548213289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

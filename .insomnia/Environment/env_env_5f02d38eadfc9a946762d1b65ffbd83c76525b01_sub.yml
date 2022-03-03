@@ -1,0 +1,28 @@
+_id: env_env_5f02d38eadfc9a946762d1b65ffbd83c76525b01_sub
+type: Environment
+parentId: env_5f02d38eadfc9a946762d1b65ffbd83c76525b01
+modified: 1645548213300
+created: 1645548213300
+name: OpenAPI env
+data:
+  scheme: https
+  base_path: /v1
+  host: api.server.test
+  xApiKey: xApiKey
+  xAppVersion: xAppVersion
+  cookieName: cookieName
+  anotherCookieName: anotherCookieName
+  key: key
+  anotherKey: anotherKey
+  httpUsername: username
+  httpPassword: password
+  bearerToken: bearerToken
+  oauth2ClientId: clientId
+  oauth2RedirectUrl: http://localhost/
+  oauth2ClientSecret: clientSecret
+  oauth2Username: username
+  oauth2Password: password
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1645548213300

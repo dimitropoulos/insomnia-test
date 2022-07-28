@@ -1,0 +1,59 @@
+_id: spc_6cfd2455416940af9b132025ec6d247d
+type: ApiSpec
+parentId: wrk_42ef93166492422f83512a195a755bdb
+modified: 1659016297077
+created: 1654186416000
+fileName: New Document
+contents: >-
+  openapi: 3.1.0
+
+  info:
+    title: Federated API Discovery API
+    version: '0.1.0'
+    description: This produces metadata about APIs published by public sector organisations
+      in the UK
+  paths:
+    "/apis":
+      get:
+        description: Gets metadata about APIs published by public sector organisations
+          in the UK
+        operationId: retrieveAll
+        responses:
+          '200':
+            description: A list of API metadata objects
+            content:
+              application/vnd.uk.gov.api.v1alpha+json:
+                schema:
+                  $ref: './bulk-metadata-response.json'
+            headers:
+              correlation-id:
+                description: A unique identifier to allow for correlating requests
+                required: true
+                schema:
+                  type: string
+                  format: uuidv4
+                  pattern: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4[a-fA-F0-9]{3}-[89abAB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}"
+          '400':
+            description: The request was malformed
+            content:
+              application/vnd.uk.gov.api.v1alpha+json:
+                schema:
+                  $ref: './error-response.json'
+            headers:
+              correlation-id:
+                description: A unique identifier to allow for correlating requests
+                required: false
+                schema:
+                  type: string
+                  format: uuidv4
+                  pattern: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4[a-fA-F0-9]{3}-[89abAB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}"
+        parameters:
+          - name: correlation-id
+            in: header
+            description: A unique identifier to allow for correlating requests
+            required: false
+            schema:
+              type: string
+              format: uuidv4
+              pattern: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-4[a-fA-F0-9]{3}-[89abAB][a-fA-F0-9]{3}-[a-fA-F0-9]{12}"
+contentType: yaml
